@@ -150,7 +150,7 @@
 		},
 		{
 			"ImportPath": "github.com/darkcrux/gopherduty",
-			"Rev": "4109bd05b098e838121a112b122f9a4102bcfc43"
+			"Rev": "6df48b69e5d4dd75216f2d49ba24873185f04432"
 		},
 		{
 			"ImportPath": "github.com/docopt/docopt-go",
