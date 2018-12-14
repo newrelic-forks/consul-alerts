@@ -13,6 +13,7 @@ const (
 	eventTrigger     = "trigger"
 	eventAcknowledge = "acknowledge"
 	eventResolve     = "resolve"
+	version          = "0.1.0-nr"
 )
 
 func init() {
@@ -85,4 +86,9 @@ func (p *PagerDuty) delayRetry() {
 
 	log.Printf("Retrying in %v...\n", duration)
 	time.Sleep(duration)
+}
+
+//Version prints out the version of this client
+func Version() string {
+	return version
 }

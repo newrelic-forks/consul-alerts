@@ -17,10 +17,11 @@ import (
 	"github.com/AcalephStorage/consul-alerts/notifier"
 
 	log "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/docopt/docopt-go"
+	docopt "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/docopt/docopt-go"
+	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/darkcrux/gopherduty"
 )
 
-const version = "Consul Alerts 0.5.0"
+const version = "Consul Alerts 0.5.1"
 const usage = `Consul Alerts.
 
 Usage:
@@ -226,6 +227,7 @@ func watchMode(arguments map[string]interface{}) {
 
 func infoHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("version", version)
+	w.Header().Add("gopherduty-version", gopherduty.Version())
 	w.WriteHeader(201)
 }
 
