@@ -18,7 +18,7 @@ import (
 
 	log "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/Sirupsen/logrus"
 	docopt "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/docopt/docopt-go"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/darkcrux/gopherduty"
+	"github.com/StephenWeber/gopherduty"
 )
 
 const version = "Consul Alerts 0.5.1"
@@ -154,6 +154,8 @@ func daemonMode(arguments map[string]interface{}) {
 	log.Println("Consul Alerts Host:", hostname)
 	log.Println("Consul Agent:", consulAddr)
 	log.Println("Consul Datacenter:", consulDc)
+	log.Println("Consul Alerts version:", version)
+	log.Println("Gopherduty version:", gopherduty.Version())
 
 	leaderCandidate := startLeaderElection(consulAddr, consulDc, consulAclToken)
 	notifEngine := startNotifEngine()

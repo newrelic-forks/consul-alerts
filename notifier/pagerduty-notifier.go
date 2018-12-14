@@ -2,7 +2,7 @@ package notifier
 
 import (
 	log "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/darkcrux/gopherduty"
+	"github.com/StephenWeber/gopherduty"
 )
 
 const defaultRetryBaseInterval = 30
