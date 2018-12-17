@@ -68,6 +68,7 @@ func (pd *PagerDutyNotifier) Notify(messages Messages) bool {
 			}
 			result = false
 		}
+		log.Printf("response from PagerDuty incident %v status %v message %v", incidentKey, response.Status, response.Message)
 	}
 
 	log.Println("PagerDuty notification complete")
