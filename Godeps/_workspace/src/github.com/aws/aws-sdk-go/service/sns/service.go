@@ -3,12 +3,12 @@
 package sns
 
 import (
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/request"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/private/protocol/query"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client/metadata"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/request"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/signer/v4"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/private/protocol/query"
 )
 
 // SNS provides the API operation methods for making requests to

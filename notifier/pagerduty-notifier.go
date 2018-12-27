@@ -1,7 +1,7 @@
 package notifier
 
 import (
-	log "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	log "github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/Sirupsen/logrus"
 	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/newrelic-forks/gopherduty"
 )
 

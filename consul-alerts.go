@@ -13,11 +13,11 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/AcalephStorage/consul-alerts/consul"
-	"github.com/AcalephStorage/consul-alerts/notifier"
+	"github.com/newrelic-forks/consul-alerts/consul"
+	"github.com/newrelic-forks/consul-alerts/notifier"
 
-	log "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	docopt "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/docopt/docopt-go"
+	log "github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	docopt "github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/docopt/docopt-go"
 	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/newrelic-forks/gopherduty"
 )
 

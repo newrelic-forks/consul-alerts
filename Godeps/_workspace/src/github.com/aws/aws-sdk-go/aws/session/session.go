@@ -9,16 +9,16 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/credentials/stscreds"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/csm"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/defaults"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/request"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/corehandlers"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/credentials/stscreds"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/csm"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/defaults"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/endpoints"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/request"
 )
 
 // A Session provides a central location to create service clients from and

@@ -82,11 +82,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/sts"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/client"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/sts"
 )
 
 // StdinTokenProvider will prompt on stdout and read from stdin for a string value.
