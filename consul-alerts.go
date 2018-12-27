@@ -18,10 +18,10 @@ import (
 
 	log "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/Sirupsen/logrus"
 	docopt "github.com/AcalephStorage/consul-alerts/Godeps/_workspace/src/github.com/docopt/docopt-go"
-	"github.com/StephenWeber/gopherduty"
+	"github.com/newrelic-forks/consul-alerts/Godeps/_workspace/src/github.com/newrelic-forks/gopherduty"
 )
 
-const version = "Consul Alerts 0.5.1"
+const version = "Consul Alerts 0.5.2"
 const usage = `Consul Alerts.
 
 Usage:
