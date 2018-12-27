@@ -13,7 +13,7 @@ const (
 	eventTrigger     = "trigger"
 	eventAcknowledge = "acknowledge"
 	eventResolve     = "resolve"
-	version          = "0.1.0-nr"
+	version          = "1.1"
 )
 
 func init() {
@@ -88,7 +88,7 @@ func (p *PagerDuty) delayRetry() {
 	time.Sleep(duration)
 }
 
-//Version prints out the version of this client
+//Version returns the current version of gopherduty
 func Version() string {
 	return version
 }

@@ -149,8 +149,8 @@
 			"Rev": "3549fbb0ea07f15a54dba3d16ccb22785a813d30"
 		},
 		{
-			"ImportPath": "github.com/darkcrux/gopherduty",
-			"Rev": "6df48b69e5d4dd75216f2d49ba24873185f04432"
+			"ImportPath": "github.com/newrelic-forks/gopherduty",
+			"Rev": "6c2d490ed1dbd735f10115482548cb64b85673b3"
 		},
 		{
 			"ImportPath": "github.com/docopt/docopt-go",
